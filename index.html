@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            button{
+                    background-color:pink;
+                    font-family: 'Courier New', Courier, monospace;
+                    border-radius: 5px;
+                    border-color: rgb(190, 0, 0);
+                    color:  rgb(190, 0, 0);
+                 }
+                 input{
+                    background-color:pink;
+                    font-family: 'Courier New', Courier, monospace;
+                    border-radius: 5px;
+                    border-color:  rgb(190, 0, 0);
+                    color:  rgb(190, 0, 0);
+                }
+                iframe{
+                    background-color:pink;
+                    font-family: 'Courier New', Courier, monospace;
+                    border-radius: 5px;
+                    border-color:  rgb(190, 0, 0);
+                    color:  rgb(190, 0, 0);
+                    
+                    background-size: auto;
+                }
+                body{
+                    background-image: url("https://www.bing.com/th?id=OHR.WANumbat_ROW0070838081_tmb.jpg&amp;rf=");
+                }
+        </style>
+        <title>(Spoon-Luke)Internet companion</title>
+        <link rel="icon" href="https://lh3.googleusercontent.com/AmKd6k3xMdfFa7KSCcxQmBpR7yasjrgdf7l-eyUI3PooWhkuHwUxO_v2Z8HFPZKB7TEKSmOIM9iP4zkThbjoQP0FuYhMkHHVPdrb5nqCkvY_GFoyjP3o3F3zA5WILOsdD9PaxOG54ujGhiCpj9v5ZwEQA3SEUxZyI0KKvZ2XILiDcVQtv98s1XlnjnMhMM_Z3Gx8nZ9MdESzl4rbu7V49C9UkjHXQgyzBZd4jMVH22tIFfcFsmWqXiv2caTWTvxCkhbr8py13ST98sSq7SiwmlB_1qSp6fGkkdnJihv1GWV06qoXEtaOt2v3APdizgUAtRQac-mXq9hFu_q3zziXM6fJAItdr2wqyXnjJSZR66zkLpL1ZaGGZ1U-S5ZIaVSHoj4yMMkLuiFPc1uMhRQ1Oa03liV0z-OhQ1gV9CN5p59HJ6OEZycROeQp-mW2GZk5wJFDzMDSr45LIrorfrdCD3ZD7lJz2AGw9Th_cslSTESk5JD-i823pu3Bw7ZYjB-6Am8Qa8k4PLZ47jLdg5nE0C-khXUqNqT4tTCHrjErjeJjZcbjd9sqjJonUvhQfV9WB4aLVgOZjXFEMQy5pJmjyLgTECyXo0vXUVf0zmCBevUkZvTtzerJt6TaFsmFUmybcsF4vuYDEDByRmfc5jd1sHgH14ugg3tq7or5R9tJpr_y6TLjhR2avg1XNcv8LlNGGQ7AeqXK-QHVLg0ZE0Q9IU6a=s768-no?authuser=0">
+
+
+
+
+    </head>
+<body>
+    
+    <button onclick=""><</button>
+    <button onclick="">></button>
+    <button onclick="Home()">Home</button>
+    <script>
+        function Home(){
+            document.getElementById("urlDisplay").src = "https://www.bing.com/";
+        }
+        function loadUrl() {
+            document.getElementById("urlDisplay").src = document.getElementById("urlSource").value;
+        }
+    </script>
+        <p><input type="text" id="urlSource" value=""> <button onclick="loadUrl()">Go</button>
+        <br>
+        <p><iframe id="urlDisplay"width="900" height="550">
+</body>
+</html>
