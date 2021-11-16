@@ -6,3 +6,5 @@ when you start it up you need to press home or typ a URL and press go.
 This browser is based on the bing search engine.
 
 the url is corrently unable to duble as a search bar but will later
+
+this is a all in one file
